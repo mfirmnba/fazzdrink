@@ -1,0 +1,3 @@
+- [ ] Change cart.remove route from DELETE to POST in routes/web.php
+- [ ] Remove _method hidden input from cart remove form in resources/views/user/cart/index.blade.php
+- [ ] Test the cart remove functionality
