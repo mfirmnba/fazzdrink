@@ -62,6 +62,56 @@
     </div>
 </section>
 
+<section class="bg-[#111] py-20">
+  <div class="container mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      
+      {{-- Card 1 --}}
+      <div class="relative border-2 border-indigo-500 rounded-3xl p-10 bg-[#111] text-white overflow-hidden">
+        {{-- Icon bulat di atas --}}
+        <div class="absolute -top-10 left-10">
+          <div class="bg-indigo-500 rounded-full p-4">
+            <img src="{{ asset('images/icon-cart.png') }}" alt="Icon Cafe" class="w-12 h-12">
+          </div>
+        </div>
+
+        <div class="mt-8">
+          <h3 class="text-2xl font-extrabold mb-4">YOUR NEIGHBORHOOD CAFE</h3>
+          <p class="text-gray-300 mb-8 leading-relaxed">
+            Our Jagoans roam the neighborhoods and are always available to serve you a quality beverage.
+          </p>
+          <a href="#"
+             class="inline-block bg-red-500 text-white font-bold px-8 py-3 rounded-full hover:bg-red-600 transition">
+             SEE WHERE
+          </a>
+        </div>
+      </div>
+
+      {{-- Card 2 --}}
+      <div class="relative border-2 border-orange-500 rounded-3xl p-10 bg-[#111] text-white overflow-hidden">
+        {{-- Icon bulat di atas --}}
+        <div class="absolute -top-10 left-10">
+          <div class="bg-orange-500 rounded-full p-4">
+            <img src="{{ asset('images/icon-cup.png') }}" alt="Icon Cup" class="w-12 h-12">
+          </div>
+        </div>
+
+        <div class="mt-8">
+          <h3 class="text-2xl font-extrabold mb-4">QUALITY DOESN'T HAVE TO BE EXPENSIVE</h3>
+          <p class="text-gray-300 mb-8 leading-relaxed">
+            Starting from IDR 8K, you can taste 100% Arabica coffee beans that are traded directly from Indonesian farmers and roasted with our own recipes.
+          </p>
+          <a href="#"
+             class="inline-block bg-red-500 text-white font-bold px-8 py-3 rounded-full hover:bg-red-600 transition">
+             SIP YOURS
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 {{-- MENU PER KATEGORI --}}
 <section class="container mx-auto px-4 sm:px-6 py-12 sm:py-16">
