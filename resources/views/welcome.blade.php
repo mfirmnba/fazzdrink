@@ -28,6 +28,41 @@
     </div>
 </section>
 
+{{-- USP / ABOUT SECTION --}}
+<section class="bg-white py-20">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-800 mb-10">
+            Your Neighborhood Coffee Cart
+        </h2>
+        <p class="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed mb-12">
+            FazzDrink hadir di sekitar Anda — menyajikan kopi instan dan minuman segar langsung dari gerobak mobile kami.
+            Nikmati cita rasa kopi berkualitas tanpa perlu jauh-jauh ke kafe.
+        </p>
+
+        {{-- 3 USP / VALUE SECTION --}}
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="bg-gray-50 p-8 rounded-2xl shadow hover:shadow-lg transition">
+                <img src="{{ asset('images/icon-delivery.png') }}" alt="Fast Service" class="w-16 mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Cepat & Praktis</h3>
+                <p class="text-gray-600 text-sm">Pesan dan nikmati minumanmu dalam hitungan menit — tanpa antre panjang.</p>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-2xl shadow hover:shadow-lg transition">
+                <img src="{{ asset('images/icon-quality.png') }}" alt="Quality Drinks" class="w-16 mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Kualitas Terjamin</h3>
+                <p class="text-gray-600 text-sm">Kami menggunakan bahan pilihan dan racikan barista berpengalaman.</p>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-2xl shadow hover:shadow-lg transition">
+                <img src="{{ asset('images/icon-affordable.png') }}" alt="Affordable" class="w-16 mx-auto mb-4">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Harga Bersahabat</h3>
+                <p class="text-gray-600 text-sm">Kopi enak tak harus mahal — nikmati setiap tegukan dengan harga ramah di kantong.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 {{-- MENU PER KATEGORI --}}
 <section class="container mx-auto px-4 sm:px-6 py-12 sm:py-16">
     <h2
